@@ -136,18 +136,6 @@ pip install -r requirements.txt
 # Place weights in models/ directory
 ```
 
-### Usage
-```bash
-# Run detection on single CT/MRI image
-python detect.py --source path/to/scan.jpg --weights models/best.pt
-
-# Run on entire folder
-python detect.py --source path/to/scans/ --weights models/best.pt
-
-# Run with Grad-CAM visualization
-python detect.py --source path/to/scan.jpg --visualize --gradcam
-```
-
 ### Expected Output
 
 - Bounding boxes around detected kidney stones
